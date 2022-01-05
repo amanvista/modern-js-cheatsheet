@@ -1,5 +1,6 @@
 # Modern JavaScript Cheatsheet
 
+## My Notes
 ```
 arrow function - implicit return
 Function default parameter value
