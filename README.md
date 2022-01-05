@@ -1,5 +1,18 @@
 # Modern JavaScript Cheatsheet
 
+```
+arrow function - implicit return
+Function default parameter value
+Destructuring objects and arrays
+
+renaming destructuring: const { firstName: first, age, city = "Paris" } = person; // That's it !
+
+callback function: a function that is passed to another function as parameter is callback function. eg. event handling
+
+Callback hell: promises, 
+
+Spread operator "..."
+```
 ![Modern JavaScript cheatsheet](https://i.imgur.com/aexPxMb.png)
 <sub>Image Credits: [Ahmad Awais ⚡️](https://github.com/ahmadawais)</sub>
 
