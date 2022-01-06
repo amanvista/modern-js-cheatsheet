@@ -1,11 +1,22 @@
 # Modern JavaScript Cheatsheet
 ## Promises - one of the way to deal with Asynchronous(concurrent and not sequential) operations
 ```javascript
-function myFunction() {
-  var myVar = "Nick";
-  console.log(myVar); // "Nick" - myVar is accessible inside the function
-}
-console.log(myVar); // Throws a ReferenceError, myVar is not accessible outside the function.
+const myPromise = new Promise((resolve,reject)=>{
+    let connection = false
+    if(connection){
+        resolve("True")
+    }
+    else{
+        resolve("False")
+    }
+})
+myPromise.then( (message)=>{
+    console.log(message)
+}).catch(
+    (message)=>{
+        console.log(message)
+    }
+)
 ```
 
 ## My Notes
