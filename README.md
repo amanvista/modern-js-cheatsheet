@@ -1,4 +1,33 @@
 # Modern JavaScript Cheatsheet
+
+## Callback Function 
+```javascript
+//callback in 
+var myArr = [
+    {
+        num: 5,
+        str: "orange"
+    },
+    {
+        num: 2,
+        str: "apple"
+    },
+    {
+        num: 7,
+        str: "banana"
+    }
+]
+//sorting based on num
+myArr.sort((var1,var2)=>{
+if(var1.str < var2.str){
+    return -1
+}
+else{
+    return 1
+}
+})
+console.log(myArr)
+```
 ## Anonymous Functions
 
 ## Promises - one of the way to deal with Asynchronous(concurrent and not sequential) operations
