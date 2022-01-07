@@ -1,4 +1,6 @@
 # Modern JavaScript Cheatsheet
+## Anonymous Functions
+
 ## Promises - one of the way to deal with Asynchronous(concurrent and not sequential) operations
 ```javascript
 const myPromise = new Promise((resolve,reject)=>{
