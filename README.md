@@ -1,8 +1,9 @@
 # Modern JavaScript Cheatsheet
 
-## Callback Function 
+## Callback Function - event driven programming, callback is called whenever a event is received by a function
 ```javascript
-//callback in 
+//callback are functions which are passed as an argument to another function
+
 var myArr = [
     {
         num: 5,
