@@ -53,6 +53,7 @@ myPromise.then( (message)=>{
 
 ## My Notes
 ```
+event delegation - better way to handle events, add event listner to parent instead to child
 arrow function - implicit return
 Function default parameter value
 Destructuring objects and arrays
