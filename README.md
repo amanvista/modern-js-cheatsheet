@@ -1,5 +1,18 @@
 # Modern JavaScript Cheatsheet
 
+### Web API - functions provided by modern browser, Window - BOM(browser object model)
+* console.log
+* setTimeOut
+* fetch
+* DOM APIs
+
+### Call Stack
+```
+JavaScript engine uses a call stack to manage execution contexts: the Global Execution Context and Function Execution Contexts.
+![image](https://user-images.githubusercontent.com/13710287/148642514-6bc5ff29-2262-495b-b0cc-89a046e654aa.png)
+
+```
+
 ## Callback Function - event driven programming, callback is called whenever a event is received by a function
 ```javascript
 //callback are functions which are passed as an argument to another function
