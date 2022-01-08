@@ -1,5 +1,7 @@
 # Modern JavaScript Cheatsheet
 
+## Virtual DOM - A virtual DOM is a lightweight JavaScript representation of the DOM 
+* changes are made to VDOM and then react figures out by itself how actual DOM need to be update in such a way that changes are minimal
 ### Web API - functions provided by modern browser, Window - BOM(browser object model)
 * console.log
 * setTimeOut
