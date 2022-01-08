@@ -5,6 +5,7 @@
 * setTimeOut
 * fetch
 * DOM APIs
+### BOM - The BOM provides you with objects that expose the web browser’s functionality.
 
 ### Call Stack
 ```
