@@ -1,7 +1,7 @@
 # Modern JavaScript Cheatsheet
 
 # Map vs Object:
-##in Map:
+## in Map:
 * keytype can be object
 * order preserved, 
 ## Virtual DOM - A virtual DOM is a lightweight JavaScript representation of the DOM 
