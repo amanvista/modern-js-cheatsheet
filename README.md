@@ -1,5 +1,9 @@
 # Modern JavaScript Cheatsheet
 
+# Map vs Object:
+##in Map:
+* keytype can be object
+* order preserved, 
 ## Virtual DOM - A virtual DOM is a lightweight JavaScript representation of the DOM 
 * changes are made to VDOM and then react figures out by itself how actual DOM need to be update in such a way that changes are minimal
 
